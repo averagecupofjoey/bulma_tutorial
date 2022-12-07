@@ -63,12 +63,37 @@
     <div class="container">
       <div class="columns is-8 is-variable">
         <div class="column is-7-tablet">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempora veniam maxime libero veritatis laborum saepe cupiditate hic at a? Eligendi doloribus hic nihil voluptatem, soluta voluptate ducimus autem vitae.</p>
+          <div class="tabs is-boxed">
+            <ul>
+              <li class="is-active" data-target="app-info">
+                <a>App Overview</a>
+              </li>
+              <li data-target="tech-info">
+                <a>Tech Overview</a>
+              </li>
+            </ul>
+          </div>
+          <div class="px-2" id="tab-content">
+            <div id="app-info">
+              <h3 class="is-size-5 title">Product Details</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nihil molestiae quasi reiciendis blanditiis veritatis error accusantium at et, ab, quisquam tempore odit sequi nam natus ullam debitis obcaecati repellat.</p>
+            </div>
+            <div id="tech-info" class="is-hidden">
+              <h3 class="is-size-5 title">Tech Overview</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nihil molestiae quasi reiciendis blanditiis veritatis error accusantium at et, ab, quisquam tempore odit sequi nam natus ullam debitis obcaecati repellat.</p>
+            </div>
+          </div>
         </div>
         <div class="column is-5-tablet">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati harum ab deleniti voluptas ad voluptates aperiam culpa praesentium optio non illum nobis error labore, expedita tenetur, minima neque accusamus!
-          </p>
+          <!-- message box -->
+          <div class="message">
+            <div class="message-header">
+              <p>Earn points with coffee club</p>
+            </div>
+            <div class="message-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum modi quis perferendis, fugit voluptatum dolor quae! Exercitationem dicta sequi magni!</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
